@@ -1,0 +1,152 @@
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  /* dark overlay */
+    url("../images/intro-bg.jpg");                     /* your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-custom {
+  padding: 20px 50px;
+}
+
+.hero-content {
+  font-size: larger;
+  padding-bottom: 5em;
+  flex: 1;                      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       
+  align-items: center;          
+  text-align: center;
+}
+.navbar-custom {
+  position: relative;
+}
+
+.navbar-custom .nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.nav-head h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  padding-right: 15em;
+  font-weight: bold;
+}
+
+.nav {
+  font-size: 1.2em;
+}
+.nav home{
+  color: #198754;
+}
+.social-icons a {
+  margin-left: 15px;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #198754;
+}
+.btn-hollow {
+  display: inline-block;
+  padding: 12px 35px;
+  font-size: 1.1rem;
+  color: #198754;                /* green text */
+  border: 2px solid #198754;     /* green border */
+  border-radius: 50px;           /* makes it oval */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-hollow:hover {
+  background-color: #198754;     /* fill green on hover */
+  color: #fff;                   /* white text on hover */
+}
+.about {
+  background-color: #f8f9fa;
+  padding: 3em 2em;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.about-text {
+  flex: 2;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.about-info {
+  flex: 1;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.about h3 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.about span {
+  color: #20c997;
+}
+
+.about .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about .info {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+
+.about .vem {
+  font-weight: bold;
+  color: #343a40;
+  margin-right: 5px;
+}
+.about a{
+  color:#20c997 ;
+  text-decoration: none;
+}
+.btn{
+  background-color:#20c997 ;
+  color: white !important;
+  border: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+  padding: 1em;
+}
+.row h4{
+  font-size: 3em;
+  font-weight: bold;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
